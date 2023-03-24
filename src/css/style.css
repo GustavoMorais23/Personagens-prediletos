@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg,
+ rgba(0,0,0,1) 0%,
+  rgba(164,21,21,1) 34%,
+   rgba(0,0,0,1) 53%,
+    rgba(79,0,205,1) 86%,
+     rgba(0,0,0,1) 100%);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.card {
+    width: 250px;
+    height: 430px;
+    position: relative;
+}
+
+.cards .card img {
+    width: 100%;
+    height: 100%;
+}
+
+.cards .card .info {
+    position: absolute;
+    color: #fff;
+    bottom: 20px;
+    left: 10px;
+}
+
+.cards .card .info .titulo {
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.titulo:hover,
+.ator:hover{
+    font-weight: bold;
+    color: #4F4F4F;
+}
